@@ -154,17 +154,171 @@ a {
     border: 2px solid #FFFFFF;
 }
 
-/* .sub-heading p{
-    width: 183px;
-    height: 20px;
-    font-size: 16px;
-    line-height: auto;
-    color: #30B868;
-    font-weight: medium;
-    align-items: center;
+#note {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 120px;
+    /* background-color: #FFFFFF; */
+    /* gap: 44px; */
+    opacity: 100%;
+    /* margin-bottom: 120px; */
+}
+#note .note-container{
+    width: 85%;
+    max-width: 1360px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    gap: 44px;
+
+    /* background-color: yellow; */
+}
+
+#note .note-container .note-heading h3{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    letter-spacing: 0px;
+    color: #001931;
+    opacity: 100%;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+
+}
+
+.note-container, .brain-content  p {
+    /* width: 00px; */
+    font-size: 16px;
+    font-weight: regular;
+    opacity: 100%;
+    color: #627382;
+    line-height: 20px;
+    /* text-align: justify; */
+    letter-spacing: 0px;
+}
+
+.note-cards{
+    /* margin-top: 44px; */
+    width: 100%;
+    max-width: 1360px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 24px;
     justify-content: center;
-} */
+    opacity: 100%;
+    /* background-color: aqua; */
+}
+
+.note-card{
+    width:310px;
+    height: 250px;
+    /* background-color: #e11d1d; */
+    border-radius: 8px;
+    padding: 24px;
+    opacity: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.06);
+    /* gap: 16px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+.note-card img{
+    width: 60px;
+    height: 60px;
+    opacity: 100%;
+    margin-bottom: 16px;
+    background-color: #F95555;
+}
+
+.note-card h3{
+    font-size: 20px;
+    font-weight: semi-bold;
+    line-height: auto;
+    color: #001931;
+    opacity: 100%;
+    margin-bottom: 8px;
+    letter-spacing: 0px;
+}
+
+#brain{
+    width: 100%;
+    max-width: 1600px;
+    padding: 120px;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    gap: 40px;
+}
+
+#brain .brain-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 1360px;
+    /* background-color: rgb(220, 86, 24); */
+    gap: 60px;
+    opacity: 100%;
+}
+#brain .brain-container .brain-image img{
+    width: 500px;
+    height: 500px;
+    opacity: 100%;
+    border-radius: 12px;
+    /* background-color: #e11d1d; */
+}
+#brain .brain-container .brain-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    opacity: 100%;
+    /* background-color: #e7dfef; */
+}
+
+#brain .brain-container .brain-content h6{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #30B868;
+    opacity: 100%;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+#brain .brain-container .brain-content h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    opacity: 100%;
+    line-height: auto;
+    text-transform: capitalize;
+}
+
+#brain .brain-container .brain-content , .brain-list {
+    list-style: none;
+    gap: 16px;
+    opacity: 100%;
+    font-size: 16px;
+    font-weight: medium;
+    color: #001931;
+    line-height: 50px;
+}
+
+#brain .brain-container .brain-content , .brain-list li i {
+    color: #30B868
+}
+
 
 
 /* .note-section{
