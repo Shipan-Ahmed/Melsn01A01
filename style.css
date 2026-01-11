@@ -205,24 +205,35 @@
 
 .card{
     max-width:315px;
+    max-height: 300px;
     border-radius: 8px;
     padding: 24px;
     opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center; 
     background-color: #FFFFFF;
     box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.06);
     
 }
 
-.note-cards .card img{
+.note-cards .card .card-image {
     width: 60px;
     height: 60px;
     opacity: 100%;
     margin-bottom: 16px;
     border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lch(51.92% 101.35 39.58);
 }
+.note-cards .card .card-image img{
+    width: 32px;
+    height: 32px;
 
+}
 .note-cards .card h3{
     font-size: 20px;
     font-weight: 600px;
@@ -406,8 +417,6 @@
     font-weight: normal;
     opacity: 100%;
     color: #FFFFFF;
-    /* line-height: 24px; */
-    /* box-shadow: 0px 4px 4px 0px #FFFFFF(99.31% 0.01 296.81  25); */
     border-top: 2px solid #283038;
     padding-top: 20px;
 }
