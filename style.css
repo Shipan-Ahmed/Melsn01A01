@@ -26,6 +26,20 @@
     cursor: pointer;
 }
 
+/* new hover effect are added */
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: #30B868;
+    border: 2px solid #30B868;
+}
+
+.hero-btn .btn-blank:hover {
+    background-color: #FFFFFF;
+    color: #30B868;
+    border: 2px solid #30B868;
+}
+
 /* main style  */
 
 #navbar{
